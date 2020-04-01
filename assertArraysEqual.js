@@ -10,8 +10,8 @@ const eqArrays = function(array1,array2) {
   return (JSON.stringify(array1) === JSON.stringify(array2));
 };
 
-const assertArraysEqual = function(array1, array2, expected) {
-  return (assertEqual(eqArrays(array1, array2), expected));
+const assertArraysEqual = function(array1, array2,) {
+  return (assertEqual(eqArrays(array1, array2), true));
 };
 
 
