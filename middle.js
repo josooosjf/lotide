@@ -9,4 +9,6 @@ let middle = function(array) {
   return array.length % 2 === 0 ? [middleEven,middleEven2] : [middleOdd];
 };
 
-console.log(middle([2,3]));
+module.exports = middle;
+
+
