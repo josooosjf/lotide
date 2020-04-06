@@ -38,6 +38,6 @@ const eqObjects = function(object1, object2) {
 };
 
 
-assertObjectsEqual({ a: '1', b: 2 },{ b: 2, a: '1' });
-assertObjectsEqual({ a: '1', b: 3 },{ b: 2, a: '1' });
-assertObjectsEqual({ a: ['a', 2, "3"], b: '1' },{ a: ['a', 2, '3'], b: '1' });
+// assertObjectsEqual({ a: '1', b: 2 },{ b: 2, a: '1' });
+// assertObjectsEqual({ a: '1', b: 3 },{ b: 2, a: '1' });
+// assertObjectsEqual({ a: ['a', 2, "3"], b: '1' },{ a: ['a', 2, '3'], b: '1' });

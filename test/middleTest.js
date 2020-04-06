@@ -1,5 +1,4 @@
-const middle = require("../middle");
-const assertArraysEqual = require("../assertArraysEqual");
+const middle = require("../index").middle;
 const assert = require("chai").assert;
 
 
@@ -14,9 +13,3 @@ describe("#middle", () => {
 
 });
 
-
-// assertArraysEqual((middle([2,3,4])),(middle([2,3,4])));
-// assertArraysEqual((middle([2,3,4,5])),(middle([2,3,4,5])));
-
-assertArraysEqual((middle([2,3,4])),(middle([2,3,4])));
-assertArraysEqual((middle([2,3,4,5])),(middle([2,3,4,5])));
