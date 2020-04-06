@@ -9,8 +9,6 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(theWord) {
   let result = {};
   for (const letter of theWord) {
-
-    // !result[letter] ? result[letter] = 1 : result[letter]++;
     if (!result[letter]) {
       result[letter] = 1;
     } else {
