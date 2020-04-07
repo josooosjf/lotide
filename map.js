@@ -26,4 +26,4 @@ const results1 = map(words, word => word[0] + ' This is the first letter of');
 const results2 = map(words, word => word[1]);
 
 
-assertArraysEqual(results2,results1);
+// assertArraysEqual(results2,results1);
